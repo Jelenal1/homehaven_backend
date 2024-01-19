@@ -15,5 +15,5 @@ export async function POST(request: NextRequest) {
     success_url: `/`,
     cancel_url: `/`,
   });
-  return NextResponse.json({ url: session.url });
+  return NextResponse.json(session.url);
 }
