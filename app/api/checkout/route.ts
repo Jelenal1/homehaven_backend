@@ -12,8 +12,8 @@ export async function POST(request: NextRequest) {
       },
     ],
     mode: "payment",
-    success_url: `/`,
-    cancel_url: `/`,
+    success_url: `https://homehaven-liard.vercel.app`,
+    cancel_url: `https://homehaven-liard.vercel.app`,
   });
   return NextResponse.json(session.url);
 }
