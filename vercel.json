@@ -15,5 +15,13 @@
         }
       ]
     }
+  ],
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "methods": ["GET", "POST"],
+      "allow": ["*"]
+    }
   ]
 }
